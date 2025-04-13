@@ -1,0 +1,28 @@
+{
+  "name": "nodeforum",
+  "version": "1.0.0",
+  "description": "A modern forum application built with Node.js, PostgreSQL, and React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "forum",
+    "nodejs",
+    "react",
+    "postgresql"
+  ],
+  "author": "NodeForum Team",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
