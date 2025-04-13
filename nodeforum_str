@@ -1,0 +1,70 @@
+nodeforum/
+├── backend/
+│   ├── config/
+│   │   ├── database.js
+│   │   └── config.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── forumController.js
+│   │   ├── messageController.js
+│   │   ├── postController.js
+│   │   ├── threadController.js
+│   │   └── userController.js
+│   ├── middlewares/
+│   │   ├── auth.js
+│   │   └── errorHandler.js
+│   ├── models/
+│   │   ├── index.js
+│   │   ├── User.js
+│   │   ├── Forum.js
+│   │   ├── Thread.js
+│   │   ├── Post.js
+│   │   ├── Message.js
+│   │   └── UserGroup.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── forumRoutes.js
+│   │   ├── messageRoutes.js
+│   │   ├── postRoutes.js
+│   │   ├── threadRoutes.js
+│   │   └── userRoutes.js
+│   ├── utils/
+│   │   ├── validators.js
+│   │   └── helpers.js
+│   ├── server.js
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── auth/
+│   │   │   ├── forum/
+│   │   │   ├── layout/
+│   │   │   ├── messages/
+│   │   │   ├── posts/
+│   │   │   ├── threads/
+│   │   │   └── user/
+│   │   ├── contexts/
+│   │   │   └── AuthContext.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   ├── ForumView.js
+│   │   │   ├── ThreadView.js
+│   │   │   ├── UserProfile.js
+│   │   │   ├── Messages.js
+│   │   │   └── AdminPanel.js
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   └── auth.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── Routes.js
+│   └── package.json
+├── .env
+├── docker-compose.yml
+├── README.md
+└── package.json
